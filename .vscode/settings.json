@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "*.cpp": "cpp",
+        "__config": "cpp",
+        "__nullptr": "cpp",
+        "vector": "cpp"
+    }
+}
