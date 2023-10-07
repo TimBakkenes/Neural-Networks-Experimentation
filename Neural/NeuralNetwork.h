@@ -44,13 +44,13 @@ public:
 
     void connectComplete();
 
-	void alterWeights(const vector<vector<vector<double>>>& weights);
+	void alterWeights(const vector<vector<vector<double> > >& weights);
 
-	void shiftBackWeights(const vector<vector<vector<double>>>& weights);
+	void shiftBackWeights(const vector<vector<vector<double> > >& weights);
 
-	vector<vector<vector<double*>>> getWeights();
+	vector<vector<vector<double*> > > getWeights();
 
-	vector<vector<vector<Edge*>>> getEdges();
+	vector<vector<vector<Edge*> > > getEdges();
 
     void randomizeAllWeights();
 
@@ -78,7 +78,7 @@ public:
     vector<Layer*> _layers;
 	double _fitness;
 
-	vector<unordered_map<string,double>> _configuration;
+	vector<unordered_map<string,double> > _configuration;
 };
 
 #endif // NEURALNETWORK_H

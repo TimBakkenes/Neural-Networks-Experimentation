@@ -65,7 +65,7 @@ public:
 
 	const unordered_map<string, double>& getParameters() const;
 
-	vector<vector<double>> getBackpropagationShifts(const vector<double>& target);
+	vector<vector<double> > getBackpropagationShifts(const vector<double>& target);
 
 	LayerType getType() const;
 
